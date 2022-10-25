@@ -231,7 +231,7 @@ c
 5010     continue
 c        set table point at tlg(jlo)=4.0 to Livermore-value
          do 5005 m=1,nxir
-            if(ltl4(m).eq..true.) opa(m,jlo,l)=opal(m,llo-1,6,l) 
+            if(ltl4(m).eqv..true.) opa(m,jlo,l)=opal(m,llo-1,6,l) 
 c                                                           ^
 c                                                           X=0.7
 c           interpolate intermediate values for 
