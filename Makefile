@@ -94,7 +94,7 @@ dexak2: $(LIB_DIR)/$(LIB_LIB) dexak2.o
 	$(FC) $(FFLAGS) -o $@ $@.o $(LIB_DIL) $(LIB_DEX)
 
 exop95: $(LIB_DIR)/$(LIB_LIB) exop95.o
-
+	$(FC) $(FFLAGS) -o $@ $@.o $(LIB_DIL) $(LIB_DEX) $(LIB_DIR)/$(LIB_LIB)
 exakop95: $(LIB_DIR)/$(LIB_LIB) exakop95.o
 	$(FC) $(FFLAGS) -o $@ $@.o $(LIB_DIL) $(LIB_DEX)
 
